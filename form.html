@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>registeration form</legend>
+        <label for =Name> name</label>
+        <input type="text" name = "name" placeholder="enter your name"><br>
+        <label for =password>password</label> 
+        <input type="password" name ="password" placeholder="enter password"><br>
+        <label for ="mobile">mobile</label>
+        <input type ="tel"name ="phone" placeholder="enter mobile number" minlength="10" maxlength="12"><br>
+        <label for ="email">enter email</label>
+        <input type="email"name ="email" placeholder="enter your email"><br>
+        <label>gender</label>
+        <input type="radio" id ="m" name="gender" value="male">male<br>
+        <input type="radio" id="f" name="gender"value="female">female<br>
+        <label>city</label>
+        <select required>
+            <option value="blr">bangalore</option>
+            <option vlaue="hyd">hyderabad</option>
+            <option value="mumbai">mumbai</option>
+        </select><br>
+        <textarea name="address" cols="10" rows="10" placeholder="enter your address" required></textarea><br>
+        <label>Resume</label><br>
+        <input type="file" required><br>
+        <label>course</label><br>
+        <input type="checkbox" name="course"value="bca" >bca<br>
+        <input type="checkbox" name="course"value="bba" >bba<br>
+        <input type="checkbox" name="course"value="bcom" >bcom<br>
+        <input type="checkbox" name="course"value="mca" >mca<br>
+        <input type="submit">
+        <input type="reset">
+
+
+    </fieldset>
+    </form>
+</body>
+</html>
